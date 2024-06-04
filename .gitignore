@@ -27,3 +27,6 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+
+# Custom
+KiCad Source/Panelisation/panel.kicad_dru
