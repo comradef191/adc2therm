@@ -31,3 +31,4 @@ fp-info-cache
 # Custom
 KiCad Source/Panelisation/panel.kicad_dru
 KiCad Source/~adc2therm.kicad_pcb.lck
+KiCad Source/gerbers/*

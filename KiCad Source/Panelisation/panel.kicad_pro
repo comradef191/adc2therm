@@ -524,19 +524,23 @@
     "netclass_patterns": [
       {
         "netclass": "Board_0-Default",
+        "pattern": "Board_0-GND"
+      },
+      {
+        "netclass": "Board_0-Default",
         "pattern": "Board_0-/GPIO"
+      },
+      {
+        "netclass": "Board_0-Default",
+        "pattern": "Board_0-Net-(J2-Pin_2)"
       },
       {
         "netclass": "Board_0-Default",
         "pattern": "Board_0-+3V3"
       },
       {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-GND"
-      },
-      {
-        "netclass": "Board_0-Default",
-        "pattern": "Board_0-Net-(J2-Pin_2)"
+        "netclass": "Board_1-Default",
+        "pattern": "Board_1-GND"
       },
       {
         "netclass": "Board_1-Default",
@@ -551,12 +555,8 @@
         "pattern": "Board_1-Net-(J2-Pin_2)"
       },
       {
-        "netclass": "Board_1-Default",
-        "pattern": "Board_1-GND"
-      },
-      {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-+3V3"
+        "pattern": "Board_2-Net-(J2-Pin_2)"
       },
       {
         "netclass": "Board_2-Default",
@@ -564,15 +564,11 @@
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-/GPIO"
+        "pattern": "Board_2-+3V3"
       },
       {
         "netclass": "Board_2-Default",
-        "pattern": "Board_2-Net-(J2-Pin_2)"
-      },
-      {
-        "netclass": "Board_3-Default",
-        "pattern": "Board_3-+3V3"
+        "pattern": "Board_2-/GPIO"
       },
       {
         "netclass": "Board_3-Default",
@@ -580,15 +576,15 @@
       },
       {
         "netclass": "Board_3-Default",
-        "pattern": "Board_3-/GPIO"
-      },
-      {
-        "netclass": "Board_3-Default",
         "pattern": "Board_3-GND"
       },
       {
-        "netclass": "Board_4-Default",
-        "pattern": "Board_4-+3V3"
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-+3V3"
+      },
+      {
+        "netclass": "Board_3-Default",
+        "pattern": "Board_3-/GPIO"
       },
       {
         "netclass": "Board_4-Default",
@@ -596,11 +592,23 @@
       },
       {
         "netclass": "Board_4-Default",
-        "pattern": "Board_4-/GPIO"
+        "pattern": "Board_4-+3V3"
       },
       {
         "netclass": "Board_4-Default",
         "pattern": "Board_4-Net-(J2-Pin_2)"
+      },
+      {
+        "netclass": "Board_4-Default",
+        "pattern": "Board_4-/GPIO"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-Net-(J2-Pin_2)"
+      },
+      {
+        "netclass": "Board_5-Default",
+        "pattern": "Board_5-GND"
       },
       {
         "netclass": "Board_5-Default",
@@ -611,16 +619,8 @@
         "pattern": "Board_5-/GPIO"
       },
       {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-GND"
-      },
-      {
-        "netclass": "Board_5-Default",
-        "pattern": "Board_5-Net-(J2-Pin_2)"
-      },
-      {
         "netclass": "Board_6-Default",
-        "pattern": "Board_6-GND"
+        "pattern": "Board_6-Net-(J2-Pin_2)"
       },
       {
         "netclass": "Board_6-Default",
@@ -632,11 +632,7 @@
       },
       {
         "netclass": "Board_6-Default",
-        "pattern": "Board_6-Net-(J2-Pin_2)"
-      },
-      {
-        "netclass": "Board_7-Default",
-        "pattern": "Board_7-+3V3"
+        "pattern": "Board_6-GND"
       },
       {
         "netclass": "Board_7-Default",
@@ -644,19 +640,19 @@
       },
       {
         "netclass": "Board_7-Default",
-        "pattern": "Board_7-/GPIO"
+        "pattern": "Board_7-+3V3"
       },
       {
         "netclass": "Board_7-Default",
         "pattern": "Board_7-GND"
       },
       {
-        "netclass": "Board_8-Default",
-        "pattern": "Board_8-Net-(J2-Pin_2)"
+        "netclass": "Board_7-Default",
+        "pattern": "Board_7-/GPIO"
       },
       {
         "netclass": "Board_8-Default",
-        "pattern": "Board_8-+3V3"
+        "pattern": "Board_8-/GPIO"
       },
       {
         "netclass": "Board_8-Default",
@@ -664,11 +660,19 @@
       },
       {
         "netclass": "Board_8-Default",
-        "pattern": "Board_8-/GPIO"
+        "pattern": "Board_8-+3V3"
+      },
+      {
+        "netclass": "Board_8-Default",
+        "pattern": "Board_8-Net-(J2-Pin_2)"
       },
       {
         "netclass": "Board_9-Default",
         "pattern": "Board_9-+3V3"
+      },
+      {
+        "netclass": "Board_9-Default",
+        "pattern": "Board_9-/GPIO"
       },
       {
         "netclass": "Board_9-Default",
@@ -679,8 +683,8 @@
         "pattern": "Board_9-Net-(J2-Pin_2)"
       },
       {
-        "netclass": "Board_9-Default",
-        "pattern": "Board_9-/GPIO"
+        "netclass": "Board_10-Default",
+        "pattern": "Board_10-/GPIO"
       },
       {
         "netclass": "Board_10-Default",
@@ -688,23 +692,15 @@
       },
       {
         "netclass": "Board_10-Default",
-        "pattern": "Board_10-/GPIO"
+        "pattern": "Board_10-Net-(J2-Pin_2)"
       },
       {
         "netclass": "Board_10-Default",
         "pattern": "Board_10-GND"
       },
       {
-        "netclass": "Board_10-Default",
-        "pattern": "Board_10-Net-(J2-Pin_2)"
-      },
-      {
         "netclass": "Board_11-Default",
-        "pattern": "Board_11-Net-(J2-Pin_2)"
-      },
-      {
-        "netclass": "Board_11-Default",
-        "pattern": "Board_11-GND"
+        "pattern": "Board_11-/GPIO"
       },
       {
         "netclass": "Board_11-Default",
@@ -712,15 +708,11 @@
       },
       {
         "netclass": "Board_11-Default",
-        "pattern": "Board_11-/GPIO"
+        "pattern": "Board_11-GND"
       },
       {
-        "netclass": "Board_12-Default",
-        "pattern": "Board_12-Net-(J2-Pin_2)"
-      },
-      {
-        "netclass": "Board_12-Default",
-        "pattern": "Board_12-/GPIO"
+        "netclass": "Board_11-Default",
+        "pattern": "Board_11-Net-(J2-Pin_2)"
       },
       {
         "netclass": "Board_12-Default",
@@ -728,11 +720,15 @@
       },
       {
         "netclass": "Board_12-Default",
-        "pattern": "Board_12-GND"
+        "pattern": "Board_12-/GPIO"
       },
       {
-        "netclass": "Board_13-Default",
-        "pattern": "Board_13-GND"
+        "netclass": "Board_12-Default",
+        "pattern": "Board_12-Net-(J2-Pin_2)"
+      },
+      {
+        "netclass": "Board_12-Default",
+        "pattern": "Board_12-GND"
       },
       {
         "netclass": "Board_13-Default",
@@ -744,6 +740,10 @@
       },
       {
         "netclass": "Board_13-Default",
+        "pattern": "Board_13-GND"
+      },
+      {
+        "netclass": "Board_13-Default",
         "pattern": "Board_13-/GPIO"
       },
       {
@@ -752,7 +752,7 @@
       },
       {
         "netclass": "Board_14-Default",
-        "pattern": "Board_14-GND"
+        "pattern": "Board_14-Net-(J2-Pin_2)"
       },
       {
         "netclass": "Board_14-Default",
@@ -760,7 +760,7 @@
       },
       {
         "netclass": "Board_14-Default",
-        "pattern": "Board_14-Net-(J2-Pin_2)"
+        "pattern": "Board_14-GND"
       }
     ]
   },
@@ -769,7 +769,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../gerbers/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
